@@ -55,7 +55,7 @@ Physical Security, binalar, ekipman ve insan gibi **somut varlıkların** zarar 
 ### 3.1 Access Control Vestibules
 - Çift kapılı sistem → aynı anda yalnızca bir kapı açılır.  
 - **Piggybacking:** Yetkili kişi isteyerek başkasını sokar.  
-- **Tailgating:** Yetkisiz kişi fark ettirmeden yetkilinin peşinden girer.  
+- **Tailgating:** Yetkisiz kişi fark ettirmeden yetkilinin peşinden girer; bunu önlemek için Access Control Vestibule (mantrap) kullanılabilir. 
 
 ### 3.2 Door Locks
 - **Padlocks (Asma Kilitler):** Basit, kolay aşılır.  
