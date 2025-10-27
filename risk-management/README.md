@@ -1,4 +1,4 @@
-# 🧩 Risk Management (SY0-701)
+# 🧩 Risk Management
 Kaynak: [DionTraining.com]
 
 ---
