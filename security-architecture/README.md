@@ -251,3 +251,6 @@ Belirli bir göreve sahip gömülü sistemler.
 - Network segmentation  
 - OTA update güvenliği
 
+---
+
+🔗 **Kaynak:** [DionTraining – CompTIA Security+ (SY0-701)](https://www.diontraining.com)  
