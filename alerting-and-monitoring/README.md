@@ -223,3 +223,7 @@ Alerting and Monitoring;
 - Proaktif güvenlik sağlar
 - Olaylara hızlı müdahale imkanı sunar
 - SOC operasyonlarının temelini oluşturur
+
+---
+
+🔗 **Kaynak:** [DionTraining – CompTIA Security+ (SY0-701)](https://www.diontraining.com)  
