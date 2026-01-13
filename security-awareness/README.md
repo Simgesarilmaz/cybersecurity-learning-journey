@@ -1,4 +1,4 @@
-# 🛡️ Security Awareness - **CompTIA Security+ (SY0-701) **
+# 🛡️ Security Awareness - CompTIA Security+ (SY0-701)
 
 ## 📌 What is Security Awareness?
 Security Awareness, bireylerin **güvenlik tehditlerini tanımasını**, **riskleri anlamasını** ve **doğru tepkiyi verebilmesini** amaçlayan bilgi ve farkındalık seviyesidir.
