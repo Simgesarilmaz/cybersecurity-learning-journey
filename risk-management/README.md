@@ -147,3 +147,7 @@ Tüm risklerin, etkilerinin, olasılıklarının ve aksiyonlarının kaydedildi�
 
 📘 **Not:**  
 Risk yönetimi dinamik bir süreçtir. Etkinliği için düzenli değerlendirme, iletişim ve otomasyon sistemleri kritik öneme sahiptir.
+
+---
+
+🔗 **Kaynak:** [DionTraining – CompTIA Security+ (SY0-701)](https://www.diontraining.com)
