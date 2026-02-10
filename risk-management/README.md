@@ -1,9 +1,4 @@
-# 🧩 Risk Management
-Kaynak: [DionTraining.com]
-
----
-
-## 🔐 Risk Management
+# 🔐 Risk Management
 Fundamental process — **risklerin tanımlanması (identification), analizi (analysis), işlenmesi (treatment), izlenmesi (monitoring)** ve **raporlanması (reporting)** aşamalarını içerir.
 
 ---
