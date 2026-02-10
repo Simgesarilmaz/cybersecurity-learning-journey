@@ -1,10 +1,5 @@
 # 🤝 Third-party Vendor Risks
 
-CompTIA Security+ (SY0-701) Study Notes
-Kaynak: DionTraining.com
-
-## 🔹 Overview
-**Third-party Vendor Risks:**  
 Dış hizmet sağlayıcılarından (vendor, supplier, MSP) kaynaklanan güvenlik ve operasyonel riskler.  
 ➡️ Etkiler: Veri gizliliği, bütünlük (integrity) ve iş sürekliliği.
 
@@ -73,3 +68,7 @@ ABD yasası; yerli yarı iletken üretimini artırarak tedarik zinciri güvenli�
 - Continuous monitoring  
 - Sector collaboration  
 - Contractual security clauses  
+
+---
+
+🔗 **Kaynak:** [DionTraining – CompTIA Security+ (SY0-701)](https://www.diontraining.com)
