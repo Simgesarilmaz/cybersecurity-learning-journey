@@ -70,3 +70,7 @@ Social Engineering, insan psikolojisini manipüle ederek sistemlere, verilere ve
 - Social Engineering, insan faktörünü hedef alır, teknolojiden çok psikolojik manipülasyona dayanır.  
 - En yaygın yöntemler: Phishing, Impersonation, Pretexting.  
 - En güçlü savunma: Security Awareness Training (Güvenlik Farkındalık Eğitimi).  
+
+---
+
+🔗 **Kaynak:** [DionTraining – CompTIA Security+ (SY0-701)](https://www.diontraining.com)
