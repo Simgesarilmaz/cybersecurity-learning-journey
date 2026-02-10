@@ -93,3 +93,7 @@ Bu bölümde siber güvenliğin temel kavramları anlatılmaktadır. Notlar "Com
 
 ## 📌 Özet
 Bu bölüm, siber güvenliğin temel kavramlarını içerir. CIA Triad, erişim yönetimi, güvenlik kontrolleri ve Zero Trust yaklaşımı, sonraki ileri seviye konular için temel taşlardır.
+
+---
+
+🔗 **Kaynak:** [DionTraining – CompTIA Security+ (SY0-701)](https://www.diontraining.com)
