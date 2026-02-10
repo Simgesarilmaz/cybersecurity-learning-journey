@@ -81,3 +81,7 @@ Physical Security, binalar, ekipman ve insan gibi **somut varlıkların** zarar 
 - Kameralar, sensörler, aydınlatma ve güvenlik personeli birlikte kullanılmalı.  
 - Erişim kontrolü; kilitler, kartlar, biyometrik sistemler ve vestibule (airlock) yapıları ile güçlendirilmelidir.  
 - Brute force saldırılarına karşı güçlü bariyerler + eğitimli personel + yedekli sistemler şarttır.
+
+---
+
+🔗 **Kaynak:** [DionTraining – CompTIA Security+ (SY0-701)](https://www.diontraining.com)
