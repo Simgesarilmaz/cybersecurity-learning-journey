@@ -62,3 +62,7 @@
 - **Honeynet (Tuzak Ağ):** Birden fazla honeypot’tan oluşan sahte ağ.  
 - **Honeyfile (Tuzak Dosya):** Saldırganları cezbetmek için oluşturulan sahte dosya.  
 - **Honeytoken (Tuzak Veri):** Gerçek bir değeri olmayan ama erişildiğinde alarm üreten veri.  
+
+---
+
+🔗 **Kaynak:** [DionTraining – CompTIA Security+ (SY0-701)](https://www.diontraining.com)
