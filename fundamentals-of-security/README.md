@@ -1,98 +1,313 @@
-# Cybersecurity Fundamentals (CompTIA Security+)
+# 🔐 Fundamentals of Security
 
-Bu bölümde siber güvenliğin temel kavramları anlatılmaktadır. Notlar "CompTIA Security+ (SY0-701) Complete Course & Practice Exam" Udemy Eğitim doğrultusunda hazırlanmıştır.
+# 1️⃣ Information Security vs Information Systems Security
 
----
+## 📌 Information Security
+Bilginin korunmasıdır.
 
-## 1. Fundamentals of Security
-- Güvenliğin temel amacı: Bilgi varlıklarını korumak.
-- CIA Triad (Confidentiality, Integrity, Availability):
-  - **Confidentiality (Gizlilik):** Yetkisiz erişimi engellemek.
-  - **Integrity (Bütünlük):** Verinin doğru ve değişmemiş kalmasını sağlamak.
-  - **Availability (Erişilebilirlik):** Yetkili kullanıcıların veriye zamanında erişebilmesi.
+Amaç: Data’yı şu durumlardan korumak:
+- unauthorized access
+- modification
+- disruption
+- disclosure
+- destruction
 
----
-
-## 2. Threats and Vulnerabilities
-- **Threat (Tehdit):** Sisteme zarar verebilecek olay (ör. malware, phishing).
-- **Vulnerability (Zafiyet):** Sistemdeki açıklık veya zayıflık (ör. eski yazılım sürümü).
-- **Exploit:** Tehdidin, zafiyeti kullanarak saldırı gerçekleştirmesi.
+Odak noktası: **Data**
 
 ---
 
-## 3. Confidentiality (Gizlilik)
-- Verinin sadece yetkili kişiler tarafından görülmesini sağlamak.
-- Yöntemler: Şifreleme, VPN, erişim kontrol listeleri (ACL).
+## 📌 Information Systems Security
+Veriyi tutan ve işleyen sistemlerin korunmasıdır:
+- servers
+- computers
+- network devices
+
+Odak noktası: **Systems**
+
+Özet:
+Information Security → Data  
+Information Systems Security → Infrastructure
 
 ---
 
-## 4. Integrity (Bütünlük)
-- Verinin doğru, tam ve değiştirilmemiş olması.
-- Örnek: Hash algoritmaları (SHA256), dijital imzalar.
+# 2️⃣ CIA Triad (Temel Taş)
+
+Security+’ta her şey buraya bağlanır.
 
 ---
 
-## 5. Availability (Erişilebilirlik)
-- Verinin ihtiyaç duyulduğunda erişilebilir olması.
-- Yöntemler: Yedekleme, yük dengeleme (load balancing), DDoS koruması.
+## 🔒 Confidentiality
+
+Bilgi sadece yetkili kişiler tarafından erişilebilir olmalı.
+
+### Amaç:
+- protect privacy
+- maintain business advantage
+- regulatory compliance
+
+### Nasıl sağlanır?
+- Encryption
+- Access Controls
+- Data Masking
+- Physical Security
+- Training & Awareness
+
+Exam Mantığı:
+Unauthorized disclosure varsa → Confidentiality ihlali
 
 ---
 
-## 6. Non-repudiation (İnkar Edememe)
-- Bir işlemi yapan kişinin sonradan bunu reddedememesi.
-- Araçlar: Dijital imzalar, loglama.
+## 🧱 Integrity
+
+Veri doğru ve değiştirilmemiş kalmalı.
+
+### Nasıl sağlanır?
+- Hashing
+- Digital Signatures
+- Checksums
+- Access Controls
+- Regular Audits
+
+💡 Önemli:
+Digital Signature = Integrity + Authenticity + Non-Repudiation
+
+Exam Mantığı:
+Data altered → Integrity ihlali
 
 ---
 
-## 7. Authentication (Kimlik Doğrulama)
-- Kullanıcının iddia ettiği kişi olduğunu kanıtlama.
-- Faktörler:
-  - Bildiğin şey (şifre, PIN).
-  - Sahip olduğun şey (kart, token).
-  - Olduğun şey (biyometri).
+## ⚡ Availability
+
+Bilgi ve sistemler gerektiğinde erişilebilir olmalı.
+
+### Neden önemli?
+- Business continuity
+- Customer trust
+- Organizational reputation
+
+### Nasıl sağlanır?
+Redundancy kullanarak.
+
+### Redundancy Türleri:
+- Server Redundancy
+- Data Redundancy
+- Network Redundancy
+- Power Redundancy
+
+Exam Mantığı:
+System down / DoS → Availability ihlali
 
 ---
 
-## 8. Authorization (Yetkilendirme)
-- Kullanıcının hangi kaynaklara erişebileceğinin belirlenmesi.
-- Örnek: RBAC (Role Based Access Control).
+# 3️⃣ Non-Repudiation
+
+Bir kişi yaptığı işlemi inkâr edememeli.
+
+### Nasıl sağlanır?
+Digital Signatures ile.
+
+### Süreç:
+1. Message hash edilir
+2. Hash private key ile encrypt edilir
+
+Bu sayede:
+- Authenticity
+- Integrity
+- Non-Repudiation sağlanır
 
 ---
 
-## 9. Accounting (Hesap Verebilirlik)
-- Kullanıcı aktivitelerinin kayıt altına alınması.
-- Araçlar: Sistem logları, SIEM çözümleri.
+# 4️⃣ AAA (Triple A)
+
+Security dünyasının temel üçlüsü:
+
+- Authentication
+- Authorization
+- Accounting
 
 ---
 
-## 10. Security Control Categories
-- **Administrative:** Politika, prosedür, eğitim.
-- **Technical:** Firewall, IDS/IPS, şifreleme.
-- **Physical:** Kilit, kamera, güvenlik görevlisi.
+## 🔐 Authentication
+
+"Sen gerçekten sen misin?"
+
+### 5 Faktör:
+- Something you know → password
+- Something you have → token
+- Something you are → biometrics
+- Something you do → behavior pattern
+- Somewhere you are → location
+
+### MFA
+Birden fazla faktör kullanmak.
+
+Exam Trick:
+Authentication = Identity doğrulama
 
 ---
 
-## 11. Security Control Types
-- **Preventive:** Saldırıyı önlemek (ör. firewall).
-- **Detective:** Olayı tespit etmek (ör. IDS).
-- **Corrective:** Zararı düzeltmek (ör. patch, yedekten geri yükleme).
+## 🛂 Authorization
+
+"Ne yapabilirsin?"
+
+Authentication’dan sonra gelir.
+
+Örnek:
+- read but not write
+- admin vs user permissions
+
+Exam Trick:
+Authorization = Permission belirleme
 
 ---
 
-## 12. Zero Trust
-- “Never trust, always verify” prensibi.
-- Her erişim talebi yeniden doğrulanır.
+## 📊 Accounting
+
+"Ne yaptın?"
+
+User aktivitelerinin loglanmasıdır.
+
+### Amaç:
+- Audit trail
+- Forensic analysis
+- Compliance
+- User accountability
+
+### Kullanılan Teknolojiler:
+- Syslog servers
+- Network analysis tools
+- SIEM systems
 
 ---
 
-## 13. Gap Analysis
-- Mevcut güvenlik durumu ile hedeflenen seviye arasındaki farkın belirlenmesi.
-- Örnek: Güvenlik denetiminde çıkan eksikliklerin raporlanması.
+# 5️⃣ Security Controls
 
 ---
 
-## 📌 Özet
-Bu bölüm, siber güvenliğin temel kavramlarını içerir. CIA Triad, erişim yönetimi, güvenlik kontrolleri ve Zero Trust yaklaşımı, sonraki ileri seviye konular için temel taşlardır.
+## 📦 Security Control Categories (4)
+
+1. Technical → firewall, IDS, encryption
+2. Managerial → policies, governance
+3. Operational → procedures, training
+4. Physical → locks, cameras
+
+---
+
+## 🎯 Security Control Types (6)
+
+1. Preventive → engeller
+2. Deterrent → caydırır
+3. Detective → tespit eder
+4. Corrective → düzeltir
+5. Compensating → alternatif çözüm
+6. Directive → policy ile yönlendirir
+
+Exam’de genelde senaryo şeklinde gelir.
+
+---
+
+# 6️⃣ Threat – Vulnerability – Risk
+
+
+## Threat
+Zarar verme potansiyeli olan şey.
+
+## Vulnerability
+Sistemdeki zayıflık.
+
+## Risk
+Threat ile Vulnerability kesiştiğinde oluşur.
+
+Formül gibi düşün:
+
+Risk = Threat + Vulnerability
+
+- Threat var ama vulnerability yok → Risk yok
+- Vulnerability var ama threat yok → Risk yok
+
+Tam vulnerability management mantığı.
+
+---
+
+# 7️⃣ Risk Management
+
+Amaç:
+- Likelihood azaltmak
+- Impact azaltmak
+- Desired outcome elde etmek
+
+Security aslında risk yönetimidir.
+
+---
+
+# 8️⃣ Gap Analysis
+
+Mevcut durum ile hedef durum arasındaki farkı bulmak.
+
+### Adımlar:
+1. Scope belirle
+2. Mevcut durumu analiz et
+3. Eksikleri belirle
+4. Plan oluştur
+
+### Türleri:
+- Technical Gap Analysis
+- Business Gap Analysis
+
+### Çıktı:
+POA&M (Plan of Action and Milestones)
+
+İçerir:
+- Hangi vulnerability
+- Hangi çözüm
+- Hangi timeline
+- Hangi kaynak
+
+---
+
+# 9️⃣ Zero Trust
+
+Temel prensip:
+
+Never trust. Always verify.
+
+Network içindeysen bile otomatik güven yok.
+
+---
+
+## 🧠 Control Plane
+
+Policy karar mekanizması.
+
+İçerir:
+- Adaptive Identity
+- Threat Scope Reduction
+- Policy-Driven Access
+- Secured Zones
+- Policy Engine
+- Policy Administrator
+
+---
+
+## 📡 Data Plane
+
+Gerçek erişimin uygulandığı yer.
+
+İçerir:
+- Subject
+- Policy Enforcement Point
+
+---
+
+# 🎯 Security+ İçin Hatırlanması Gerekenler
+
+- CIA Triad her şeyin temeli.
+- Risk = Threat + Vulnerability.
+- Digital Signature → Integrity + Non-Repudiation.
+- Authentication ≠ Authorization.
+- Preventive, Detective, Corrective farkını iyi bil.
+- Zero Trust = Continuous verification.
+
 
 ---
 
