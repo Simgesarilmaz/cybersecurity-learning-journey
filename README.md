@@ -13,7 +13,7 @@ Siber güvenliğin temel kavramları, tehdit aktörleri ve farkındalık konular
 
 - [Fundamentals of Security](./fundamentals-of-security)
 - [Threat Actors](./threat-actors)
-- [Malicious Activity](./malicious-activity)
+- [Malware](./malware)
 - [Social Engineering](./social-engineering)
 - [Security Awareness](./security-awareness)
 - [Physical Security](./physical-security)
