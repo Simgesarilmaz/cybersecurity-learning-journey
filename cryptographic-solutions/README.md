@@ -1,6 +1,4 @@
-# 🔐 Cryptographic Solutions  
-**CompTIA Security+ (SY0-701) Study Notes**  
-Kaynak: [DionTraining.com](https://www.diontraining.com)
+# 🔐 Cryptographic Solutions
 
 
 ## 📘 Overview
@@ -272,3 +270,4 @@ Veri bütünlüğü ve şeffaflık sağlar.
 
 ---
 
+🔗 **Kaynak:** [DionTraining – CompTIA Security+ (SY0-701)](https://www.diontraining.com)  
