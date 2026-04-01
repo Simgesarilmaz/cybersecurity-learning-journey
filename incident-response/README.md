@@ -1,4 +1,4 @@
-# Incident Response (IR) - CompTIA Security+ (SY0-701)
+# Incident Response (IR)
 
 Incident Response (IR), bir güvenlik olayını **tespit etmek, kontrol altına almak, ortadan kaldırmak ve sistemleri güvenli şekilde eski haline döndürmek** için kullanılan sistematik yaklaşımdır.
 
