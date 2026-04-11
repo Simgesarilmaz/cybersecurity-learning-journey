@@ -1,4 +1,4 @@
-# 🔐 Automation and Orchestration - CompTIA Security+ (SY0-701)
+# 🔐 Automation and Orchestration
 
 Güvenlik operasyonlarında **manuel müdahaleyi azaltmak**, süreçleri hızlandırmak ve
 **insan hatasını minimize etmek** için kullanılan yaklaşımlardır.
