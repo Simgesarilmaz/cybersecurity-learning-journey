@@ -1,7 +1,4 @@
-# 🏛️ Governance and Compliance (SY0-701)
-📚 **Kaynak:** Dion Training – CompTIA Security+ (SY0-701)  
-
----
+# 🏛️ Governance and Compliance 
 
 ## 🎯 Overview
 Governance ve Compliance; kuruluşun IT yapısının hem **iş hedefleriyle uyumlu**, hem de **yasal gerekliliklere uygun** çalışmasını sağlar.  
@@ -77,3 +74,5 @@ Kuruluşun **kanunlara, standartlara ve politikalara uygun** şekilde faaliyet g
 > Compliance: *Bunun doğru yapıldığından emin olur.*
 
 ---
+
+🔗 **Kaynak:** [DionTraining – CompTIA Security+ (SY0-701)](https://www.diontraining.com)  
