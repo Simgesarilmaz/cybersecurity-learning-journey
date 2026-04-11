@@ -90,3 +90,5 @@ Bu dosya, Security+ sertifikası için çalışırken edinilen özet bilgileri i
 
 ---
 
+🔗 **Kaynak:** [DionTraining – CompTIA Security+ (SY0-701)](https://www.diontraining.com)  
+
