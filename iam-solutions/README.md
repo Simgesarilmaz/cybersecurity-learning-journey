@@ -1,4 +1,4 @@
-# Identity and Access Management (IAM) Solutions CompTIA Security+ (SY0-701)
+# Identity and Access Management (IAM) Solutions
 
 ---
 
