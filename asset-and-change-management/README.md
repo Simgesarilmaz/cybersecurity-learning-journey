@@ -1,4 +1,4 @@
-# 🧩 Asset and Change Management (SY0-701)
+# 🧩 Asset and Change Management
 
 ## 🧱 Asset Management
 
