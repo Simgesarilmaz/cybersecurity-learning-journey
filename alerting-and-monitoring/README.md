@@ -1,4 +1,4 @@
-# 🔔 Alerting and Monitoring (Security+ SY0-701)
+# 🔔 Alerting and Monitoring 
 
 Alerting and Monitoring, bilgi sistemlerinin **Confidentiality, Integrity ve Availability (CIA Triad)** ilkelerini korumak için kritik öneme sahiptir.  
 Bu süreçler sayesinde güvenlik olayları erken tespit edilir, hızlı müdahale edilir ve riskler minimize edilir.
