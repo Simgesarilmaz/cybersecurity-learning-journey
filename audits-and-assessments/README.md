@@ -1,4 +1,4 @@
-# 🧩 Audits and Assessments (SY0-701)
+# 🧩 Audits and Assessments
 
 ## 🔍 1. Overview
 
